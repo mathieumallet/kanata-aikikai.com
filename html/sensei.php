@@ -61,7 +61,7 @@
 
 <table><tr>
 <td><img src="images/peter.jpg" width="100" height="100" style="border: 1px solid black; margin: 0em 1em 0em 0;" /></td>
-<td vvalign="top"><p class="contents">Peter Johnson, Sandan (3rd degree black belt) began his Aikido training in the early 90's with the Kanata Aikikai. Training in this discipline of martial arts has always been of great interest to Peter because of the mix of hand-to-hand and weapons. Peter has trained in numerous locations in Canada and USA because of work travel. Everywhere he has gone dojos have welcomed him warmly. Peter currently holds a Nidan ranking in Aikido and on occasion instructs classes . Peter credits Sensei Yates for his love of Aikido and his continuing development well into the future.</p></td>.
+<td vvalign="top"><p class="contents">Peter Johnson, Sandan (3rd degree black belt) began his Aikido training in the early 90's with the Kanata Aikikai. Training in this discipline of martial arts has always been of great interest to Peter because of the mix of hand-to-hand and weapons. Peter has trained in numerous locations in Canada and USA because of work travel. Everywhere he has gone dojos have welcomed him warmly. Peter currently holds a Nidan ranking in Aikido and on occasion instructs classes. Peter credits Sensei Yates for his love of Aikido and his continuing development well into the future.</p></td>
 </tr></table>
 
 <h3 class="red-text">Chris Prud'Homme - 2nd Dan</h3>
