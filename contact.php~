@@ -1,0 +1,76 @@
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Kanata Aikikai - About Us</title>
+<link href="images/styles.css" rel="stylesheet" type="text/css" />
+<!--[if gte IE 9]>
+<link href="images/stylesie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body style="background:url(images/bodybg-inner.png) repeat-x; background-color:#979797;">
+<table width="960" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-bottom:30px;" >
+  <tr>
+    <td height="228" valign="top"><div style="margin-top:12px;"><img src="images/header-inner.png" width="960" height="230" /></div></td>
+  </tr>
+  <tr>
+    <td><?php include_once('_hmenu.php'); ?></td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" border="0" cellspacing="10" cellpadding="0">
+        <tr>
+          <td style="vertical-align:top;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+
+<div style="float:right;">
+  <img src="images/RiPTones.png" width="59" height="60" />
+  <a href="mailto:dcycel@gmail.com">
+    <img src="images/Mail2.png" width="59" height="60" />
+  </a>
+</div>
+<h2 class="red-text">Contact Us</h2>
+<p class="contents">David Yates Sensei can be contacted by phone at <strong>613-592-2743</strong> or by e-mail 
+at <a href="mailto:dcycel@gmail.com">dcycel@gmail.com</a>
+
+<div style="float:right;">
+  <a href="https://www.facebook.com/KanataAikikai">
+    <img src="images/Facebook.png" width="59" height="60" />
+  </a>
+</div>
+<h2 class="red-text">Social</h2>
+<p class="contents">You can keep touch with what's going on at the Kanata Aikikai by visiting our 
+<a href="https://www.facebook.com/KanataAikikai">Facebook page</a>.     
+
+<div style="float:right;">
+  <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=45+Liston+Crescent,+Kanata,+Ontario&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=55.060677,111.884766&amp;ie=UTF8&amp;hq=&amp;hnear=45+Liston+Crescent,+Ottawa,+Ottawa+Division,+Ontario+K2L+2W3,+Canada&amp;t=m&amp;ll=45.31039,-75.901365&amp;spn=0.028974,0.054932&amp;z=14&amp;iwloc=A">
+    <img src="images/MapsALT.png" width="59" height="60" />
+  </a>
+</div>
+<a id="map"></a>
+<h2 class="red-text">Where Are We</h2>
+<p class="contents">The Kanata Aikikai is located at 45 Liston Crescent in Kanata, Ontario. Street parking is available. It is reachable using the OC Transpo bus #96.
+
+<p><iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=45+Liston+Crescent,+Ottawa,+ON,+Canada&amp;aq=0&amp;oq=45+&amp;sll=45.307583,-75.898683&amp;sspn=0.012088,0.027316&amp;ie=UTF8&amp;hq=&amp;hnear=45+Liston+Crescent,+Ottawa,+Ottawa+Division,+Ontario+K2L+2W3,+Canada&amp;t=m&amp;ll=45.31036,-75.902696&amp;spn=0.014487,0.027466&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+
+<p><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=45+Liston+Crescent,+Kanata,+Ontario&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=55.060677,111.884766&amp;ie=UTF8&amp;hq=&amp;hnear=45+Liston+Crescent,+Ottawa,+Ottawa+Division,+Ontario+K2L+2W3,+Canada&amp;t=m&amp;ll=45.31039,-75.901365&amp;spn=0.028974,0.054932&amp;z=14&amp;iwloc=A">View Larger Map & Get Directions</a>
+
+<p><a href="http://www.octranspo1.com/travelplanner/travelplanner/">OC Transpo Travel Planner</a>
+
+		</td>
+              </tr>
+            </table>
+          </td>
+          <?php include_once('_sidebar.php'); ?>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<div class="footwrapper">
+<?php include_once('_footer.php'); ?>
+</div>
+</body>
+</html>
