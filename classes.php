@@ -72,7 +72,7 @@
 
     <tr>
       <td style="background-color: #b0b0b0"></td>
-      <td style="background-color: #b0b0b0">7:00 - 7:30 pm (advanced)</td>
+      <td style="background-color: #b0b0b0">7:00 - 7:30 am (advanced)</td>
       <td style="background-color: #b0b0b0">7:00 - 8:00 pm (children)</td>
     </tr>
   </table>

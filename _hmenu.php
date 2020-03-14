@@ -3,7 +3,7 @@
     <tr style="vertical-align:middle;">
       <td class="menuitem" align="center"><a class="menuitem" href="index.php">HOME</a></td>
       <td class="menuitem" align="center"><a class="menuitem" href="about.php">ABOUT AIKIDO</a></td>
-      <td class="menuitem" align="center"><a class="menuitem" href="sensei.php">CHIEF INSTRUCTOR</a></td>
+      <td class="menuitem" align="center"><a class="menuitem" href="sensei.php">INSTRUCTORS</a></td>
       <td class="menuitem" align="center"><a class="menuitem" href="classes.php">CLASSES</a></td>
       <td class="menuitem" align="center"><a class="menuitem" href="gallery.php">GALLERY</a></td>
       <td class="menuitem" align="center"><a class="menuitem" href="resources.php">RESOURCES</a></td>
