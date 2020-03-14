@@ -1,0 +1,1 @@
+Visit [www.kanata-aikikai.com](http://www.kanata-aikikai.com) for the 'live' version of this website.
