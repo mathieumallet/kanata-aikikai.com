@@ -42,8 +42,6 @@
 
 <p class="contents">As Shidoin, Yates Sensei has been invited to teach classes in cities across Canada and as far away as San Diego and Sydney, Australia.
 
-<p class="contents">Yates Sensei is currently President of the CAF, being elected in June 2012 after serving two terms as Vice-President. Yates Sensei also served multiple terms as President of the Ontario Aikido Federation (OAF), Treasurer of the OAF, and OAF Representative to the CAF.
-
 <p class="contents">Yates Sensei served 3 terms as President of the CAF and two terms as Vice-President. Yates Sensei also served on the board of the Ontario Aikido Federation over many years, holding every position on the board including President for multiple terms.
 
 <p class="contents">On February 11th, 1985, Yates Sensei opened the Kanata Aikikai located in his home, where it remains to this day. Since the opening of the Kanata Aikikai, Yates Sensei has trained hundreds of adults and children in his powerful but graceful style of Aikido.
