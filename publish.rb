@@ -11,7 +11,7 @@ OUTPUT_DIRECTORY="publish"
 def process(inputFile, outputFile)
     template = File.read(inputFile)
     renderer = ERB.new(template)
-    puts output = renderer.result()
+    File.write(outputFile, renderer.result())
 end
 
 process("source/about.erb", "publish/about.html")

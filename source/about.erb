@@ -61,21 +61,21 @@
 <p>For more information about Aikido, read the <a href="primer.php">Aikido Primer</a> or visit
 the <a href="resources.php">Resources</a> page.
 
-<?php include_once('_visitors.php'); ?>
+<%= File.read("source/_visitors.html") %>
 
 
 		</td>
               </tr>
             </table>
           </td>
-          <?php include_once('_sidebar.php'); ?>
+          <%= File.read("source/_sidebar.html") %>
         </tr>
       </table>
     </td>
   </tr>
 </table>
 <div class="footwrapper">
-<?php include_once('_footer.php'); ?>
+<%= File.read("source/_footer.html") %>
 </div>
 </body>
 </html>

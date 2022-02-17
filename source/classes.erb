@@ -14,7 +14,7 @@
     <td height="228" valign="top"><div style="margin-top:12px;"><img src="images/header-inner.png" width="960" height="230" /></div></td>
   </tr>
   <tr>
-    <td><?php include_once('_hmenu.php'); ?></td>
+    <td><%= File.read("source/_hmenu.html") %></td>
   </tr>
   <tr>
     <td>
@@ -64,7 +64,7 @@
       <th style="background-color: #999999">Friday</th>
     </tr>
 
-    <tr> 
+    <tr>
       <td style="background-color: #b0b0b0">6:00 - 7:30 pm (open)</td>
       <td style="background-color: #b0b0b0">6:00 - 7:00 pm (open)</td>
       <td style="background-color: #b0b0b0">6:00 - 7:00 pm (children)</td>
@@ -78,21 +78,21 @@
   </table>
 </center>
 
-<?php include_once('_visitors.php'); ?>
+<%= File.read("source/_visitors.html") %>
 
 
 		</td>
               </tr>
             </table>
           </td>
-	  <?php include_once('_sidebar.php'); ?>
+	  <%= File.read("source/_sidebar.html") %>
         </tr>
       </table>
     </td>
   </tr>
 </table>
 <div class="footwrapper">
-<?php include_once('_footer.php'); ?>
+<%= File.read("source/_footer.html") %>
 </div>
 </body>
 </html>

@@ -14,7 +14,7 @@
     <td height="228" valign="top"><div style="margin-top:12px;"><img src="images/header-inner.png" width="960" height="230" /></div></td>
   </tr>
   <tr>
-    <td><?php include_once('_hmenu.php'); ?></td>
+    <td><%= File.read("source/_hmenu.html") %></td>
   </tr>
   <tr>
     <td>
@@ -80,14 +80,14 @@
               </tr>
             </table>
           </td>
-          <?php include_once('_sidebar.php'); ?>
+          <%= File.read("source/_sidebar.html") %>
         </tr>
       </table>
     </td>
   </tr>
 </table>
 <div class="footwrapper">
-<?php include_once('_footer.php'); ?>
+<%= File.read("source/_footer.html") %>
 </div>
 </body>
 </html>

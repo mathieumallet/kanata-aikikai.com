@@ -27,7 +27,7 @@
     </td>
   </tr>
   <tr>
-    <td><div style="margin-top:-18px;"><?php include_once('_hmenu.php'); ?></div></td>
+    <td><div style="margin-top:-18px;"><%= File.read("source/_hmenu.html") %></div></td>
   </tr>
   <tr>
     <td>
@@ -137,7 +137,7 @@
   </tr>
 </table>
 <div class="footwrapper">
-<?php include_once('_footer.php'); ?>
+<%= File.read("source/_footer.html") %>
 </div>
 </body>
 </html>

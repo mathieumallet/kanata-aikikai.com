@@ -14,7 +14,7 @@
     <td height="228" valign="top"><div style="margin-top:12px;"><img src="images/header-inner.png" width="960" height="230" /></div></td>
   </tr>
   <tr>
-    <td><?php include_once('_hmenu.php'); ?></td>
+    <td><%= File.read("source/_hmenu.html") %></td>
   </tr>
   <tr>
     <td>
@@ -32,8 +32,8 @@
   </a>
 </div>
 <h2 class="red-text">Contact Us</h2>
-<p class="contents">David Yates Sensei can be contacted by phone at <strong>613-592-2743</strong> or by e-mail 
-at <a href="mailto:dcycel@gmail.com">dcycel@gmail.com</a>. In case of emergency, he can also be reached on his cell 
+<p class="contents">David Yates Sensei can be contacted by phone at <strong>613-592-2743</strong> or by e-mail
+at <a href="mailto:dcycel@gmail.com">dcycel@gmail.com</a>. In case of emergency, he can also be reached on his cell
 at <strong>613-355-5008</strong>.
 
 <div style="float:right;">
@@ -42,8 +42,8 @@ at <strong>613-355-5008</strong>.
   </a>
 </div>
 <h2 class="red-text">Social</h2>
-<p class="contents">You can keep touch with what's going on at the Kanata Aikikai by visiting our 
-<a href="https://www.facebook.com/KanataAikikai">Facebook page</a>.     
+<p class="contents">You can keep touch with what's going on at the Kanata Aikikai by visiting our
+<a href="https://www.facebook.com/KanataAikikai">Facebook page</a>.
 
 <div style="float:right;">
   <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=45+Liston+Crescent,+Kanata,+Ontario&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=55.060677,111.884766&amp;ie=UTF8&amp;hq=&amp;hnear=45+Liston+Crescent,+Ottawa,+Ottawa+Division,+Ontario+K2L+2W3,+Canada&amp;t=m&amp;ll=45.31039,-75.901365&amp;spn=0.028974,0.054932&amp;z=14&amp;iwloc=A">
@@ -64,14 +64,14 @@ at <strong>613-355-5008</strong>.
               </tr>
             </table>
           </td>
-          <?php include_once('_sidebar.php'); ?>
+          <%= File.read("source/_sidebar.html") %>
         </tr>
       </table>
     </td>
   </tr>
 </table>
 <div class="footwrapper">
-<?php include_once('_footer.php'); ?>
+<%= File.read("source/_footer.html") %>
 </div>
 </body>
 </html>

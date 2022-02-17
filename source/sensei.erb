@@ -14,7 +14,7 @@
     <td height="228" valign="top"><div style="margin-top:12px;"><img src="images/header-inner.png" width="960" height="230" /></div></td>
   </tr>
   <tr>
-    <td><?php include_once('_hmenu.php'); ?></td>
+    <td><%= File.read("source/_hmenu.html") %></td>
   </tr>
   <tr>
     <td>
@@ -71,20 +71,20 @@
 <td vvalign="top"><p class="contents">Chris Prud’homme, Nidan (2nd degree black belt) started his Aikido training in 1990. He quickly climbed the ranks and in 1997 he received his Shodan, followed by his Nidan  (2nd degree black belt) in 2007. His Aikido continues to grow and evolve under Sensei Yates’ tutelage and as an Assistant Instructor with the Kanata Aikikai.</p></td>
 </tr></table>
 
-<?php include_once('_visitors.php'); ?>
+<%= File.read("source/_visitors.html") %>
 
                 </td>
               </tr>
             </table>
           </td>
-         <?php include_once('_sidebar.php'); ?>
+         <%= File.read("source/_sidebar.html") %>
         </tr>
       </table>
     </td>
   </tr>
 </table>
 <div class="footwrapper">
-<?php include_once('_footer.php'); ?>
+<%= File.read("source/_footer.html") %>
 </div>
 </body>
 </html>
