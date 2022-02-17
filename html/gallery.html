@@ -82,22 +82,48 @@ $(document).ready(function(){
 
 <p class="contents">
 
-<?php include_once('ubergallery/UberGallery.html'); $gallery = UberGallery::init()->createGallery('topGallery'); ?>
+<!-- Start UberGallery 2.4.4 - Copyright (c) 2022 Chris Kankiewicz (http://www.ChrisKankiewicz.com) -->
+<div id="galleryWrapper">
 
+
+        <ul id="galleryList" class="clearfix">
+
+                            <li><a href="topGallery/DCY_3832.JPG" title="DCY 3832" rel="colorbox"><img src="ubergallery/cache/100x100-75-1c6b298a79f129653e0bf8416233e09d.JPG" alt="DCY 3832"/></a></li>
+                            <li><a href="topGallery/DSC_2824.JPG" title="DSC 2824" rel="colorbox"><img src="ubergallery/cache/100x100-75-e582bffafe70aa020489e117a7bc1e36.JPG" alt="DSC 2824"/></a></li>
+                            <li><a href="topGallery/DSC_2854.JPG" title="DSC 2854" rel="colorbox"><img src="ubergallery/cache/100x100-75-41a0cd4850c1bfddd873aa5f36207267.JPG" alt="DSC 2854"/></a></li>
+                            <li><a href="topGallery/DSC_3095.JPG" title="DSC 3095" rel="colorbox"><img src="ubergallery/cache/100x100-75-3357185e4d5729f2e763dd3b0a9f8207.JPG" alt="DSC 3095"/></a></li>
+                            <li><a href="topGallery/Image5filt.jpg" title="Image5filt" rel="colorbox"><img src="ubergallery/cache/100x100-75-daa6ffa9f522ae8d447eee9cd3a16685.jpg" alt="Image5filt"/></a></li>
+                            <li><a href="topGallery/year end test 04_jpg.jpg" title="year end test 04 jpg" rel="colorbox"><img src="ubergallery/cache/100x100-75-841bba25acd7b697db04596f9c2de145.jpg" alt="year end test 04 jpg"/></a></li>
+                            <li><a href="topGallery/year end test2 04_jpg.jpg" title="year end test2 04 jpg" rel="colorbox"><img src="ubergallery/cache/100x100-75-ef7f55d06e5dc8ed231360d3094f5816.jpg" alt="year end test2 04 jpg"/></a></li>
+
+        </ul>
+
+
+
+
+</div>
+<!-- End UberGallery - Distributed under the MIT license: http://www.opensource.org/licenses/mit-license.php -->
 <h2 class="red-text">Individual Albums</h2>
 
 <ul>
-  <?php $files = scandir('galleries'); ?>
-  <?php foreach ($files as $file): ?>
-    <?php $dir = 'galleries/' . $file; ?>
-    <?php if (is_dir($dir) && $file != '.' && $file != '..'): ?>
-	<li><a href="album.html?album=<?php echo $file; ?>"><?php echo ucwords($file); ?></a>
-    <?php endif; ?>
 
-  <?php endforeach; ?>
-</ul>
+
+          	<li><a href="album.php?album=19th Dojo Anniversary Seminar and Dinner">19th Dojo Anniversary Seminar And Dinner</a>
+
+          	<li><a href="album.php?album=20th Dojo Anniversary Seminar">20th Dojo Anniversary Seminar</a>
+
+          	<li><a href="album.php?album=A class from April 2012">A Class From April 2012</a>
+
+          	<li><a href="album.php?album=Childrens' Class Test and Party">Childrens' Class Test And Party</a>
+
+          	<li><a href="album.php?album=General Aikido Pictures">General Aikido Pictures</a>
+
+          	<li><a href="album.php?album=Pictures from Kyu Tests">Pictures From Kyu Tests</a>
+
+  </ul>
 
 <div id="credit"><p class="contents">Gallery powered by <a href="http://www.ubergallery.net">UberGallery</a></p></div>
+
 
 </p>
 
