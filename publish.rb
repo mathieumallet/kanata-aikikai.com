@@ -1,12 +1,12 @@
 #!/usr/bin/env ruby
 
 # This script takes as input the .erb files from the source/ folder
-# and generates .html files into the publish/ folder.
+# and generates .html files into the html/ folder.
 
 require 'erb'
 
 INPUT_DIRECTORY="source"
-OUTPUT_DIRECTORY="publish"
+OUTPUT_DIRECTORY="html"
 
 def process(inputFile, outputFile)
     template = File.read(inputFile)
