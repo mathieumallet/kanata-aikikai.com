@@ -14,4 +14,10 @@ def process(inputFile, outputFile)
     File.write(outputFile, renderer.result())
 end
 
-process("source/about.erb", "publish/about.html")
+Dir["#{INPUT_DIRECTORY}/*.erb"].each do |filename|
+    outputFilename = File.basename(filename, ".erb") + ".html"
+    puts "Publishing #{filename} to #{OUTPUT_DIRECTORY}/#{outputFilename}..."
+    process("#{filename}", "#{OUTPUT_DIRECTORY}/#{outputFilename}")
+end
+
+puts "Done."
