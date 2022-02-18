@@ -26,7 +26,20 @@ $(document).ready(function(){
     <td height="228" valign="top"><div style="margin-top:12px;"><img src="images/header-inner.png" width="960" height="230" /></div></td>
   </tr>
   <tr>
-    <td><%= File.read("source/_hmenu.html") %></td>
+    <td><div class="menubar" style="margin-top:-1px;height:40px;padding:0 0 5px 0;">
+  <table width="100%" height="40" border="0" align="center" cellpadding="0" cellspacing="0" style="margin0px; padding:0px;" >
+    <tr style="vertical-align:middle;">
+      <td class="menuitem" align="center"><a class="menuitem" href="index.html">HOME</a></td>
+      <td class="menuitem" align="center"><a class="menuitem" href="about.html">ABOUT AIKIDO</a></td>
+      <td class="menuitem" align="center"><a class="menuitem" href="sensei.html">INSTRUCTORS</a></td>
+      <td class="menuitem" align="center"><a class="menuitem" href="classes.html">CLASSES</a></td>
+      <td class="menuitem" align="center"><a class="menuitem" href="gallery.html">GALLERY</a></td>
+      <td class="menuitem" align="center"><a class="menuitem" href="resources.html">RESOURCES</a></td>
+      <td class="menuitem" align="center"><a class="menuitem" href="contact.html#map">FIND US</a></td>
+    </tr>
+  </table>
+</div>
+</td>
   </tr>
   <tr>
     <td>
@@ -106,14 +119,60 @@ $(document).ready(function(){
               </tr>
             </table>
           </td>
-          <%= File.read("source/_sidebar.html") %>
+                    <!--<td width="240" valign="top">
+            <table width="100%" border="0" cellspacing="5" cellpadding="0">
+              <tr>
+                <td>
+                  <div class="border-radius blue-g" style="height:135px; margin-right:-10px;">
+                  <table width="100%" border="0" cellspacing="5" cellpadding="0">
+                    <tr>
+                      <td width="49%"><img src="images/gallery-icn.png" width="111" height="107" /></td>
+                      <td width="51%" valign="top"><img style="padding-top:25px;" src="images/photo-gal-text.png" width="98" height="52" /><br />
+                        <div style="padding-top:10px;"><a  class="more" href="gallery.html">Click Here...</a>   </div>
+                      </td>
+                    </tr>
+                  </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="border-radius" style="height:135px; background:#e7e7e7; margin-right:-10px; margin-top:10px;">
+                  <table width="100%" border="0" cellspacing="5" cellpadding="0">
+                    <tr>
+                      <td width="49%"><img src="images/map-icn.png" width="98" height="118" /></td>
+                      <td width="51%" valign="top"><img border="0" style="padding-top:25px;" src="images/find-us.png" width="94" height="52" /><br />
+                        <div style="padding-top:10px;">-->
+			  <!--<a class="more" href="http://maps.google.com/maps?daddr=45+Liston+Crescent,+Kanata,+ON,+Canada,+K2L2W3&hl=en" target="_blank">Click Here...</a>-->
+			  <!--<a class="more" href="contact.html#map" target="_blank">Click Here...</a>
+			</div>
+                      </td>
+                    </tr>
+                  </table>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>-->
+
         </tr>
       </table>
     </td>
   </tr>
 </table>
 <div class="footwrapper">
-<%= File.read("source/_footer.html") %>
+<div style="width:100%;">
+  <div class="footerbar" style="width:98%;margin: 0 auto;">
+    <table width="98%" height="30" border="0" align="center" cellpadding="0" cellspacing="0" style="margin0px;padding:0px;" >
+      <tr>
+        <td width="20%" style="font: 12px/30px Arial,Helvetica,sans-serif;color:white;" align="left"><a href="index.html" style="color:white;">Home</a></td>
+        <td style="font: 12px/30px Arial,Helvetica,sans-serif;color:white;" align="center">Copyright &copy; 2012, Kanata Aikikai. All Rights Reserved.</td>
+        <td width="20%" style="font: 12px/30px Arial,Helvetica,sans-serif;color:white;" align="right">Design by <a href="http://www.worxstudio.com/" target="_blank" style="color:white;">WorxStudio.com</a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
 </div>
 </body>
 </html>
