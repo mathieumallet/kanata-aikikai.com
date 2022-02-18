@@ -6,7 +6,7 @@
 require 'erb'
 
 INPUT_DIRECTORY="source"
-OUTPUT_DIRECTORY="html"
+OUTPUT_DIRECTORY="docs"
 
 def process(inputFile, outputFile)
     template = File.read(inputFile)
